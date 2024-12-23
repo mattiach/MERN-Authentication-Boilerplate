@@ -1,21 +1,50 @@
-# MERN-Fullstack - Template with Authentication
+# MERN Fullstack Authentication - Boilerplate
 
 ## Description
 Kickstart your _MERN stack_ (**MonboDB, Express.js, React.js, Node.js**) journey with this powerful fullstack template and build amazing apps in no time! It includes a fully implemented authentication system with _login, logout, sign-up, email verification, and password reset via email link_.
+
+<div>
+  <img src="preview/app/login.png" width="300" />
+  <img src="preview/app/profile.png" width="235" /> 
+</div>
+
+## Features
+
+- **Fullstack Authentication System** 🔒 
+  - Login  
+  - Sign-up  
+  - Logout  
+  - Delete account  
+  - Update profile details  
+  - Account verification through email link  
+  - Forgot password page  
+  - JWT tokens stored in cookies  
+  - Protected Routes  
+
+- **Type checking with TypeScript on both client and server** ✅
+
+- **Reusable Components** ♻️
+
+- **Built-in features from Next.js⚡**
+  - HTML & CSS minification  
+  - App Router Support
+  - Live reload  
+  - SEO-friendly 
+  - Minimalistic code  
+  - Easy customization
 
 ## Dependencies Installation and Node Modules
 
 Make sure you already have [Node js](https://nodejs.org/it/download/) installed before proceeding. Then, install the necessary node modules to start the application
 
-```sh
+```
   cd backend
   npm install
 ```
-```sh
+```
   cd frontend
   npm install
 ```
-
 
 ## .env File and MongoDB configuration
 Log into your MongoDB account, or create a new one if you haven’t already, and create a Database 
@@ -27,12 +56,12 @@ Log into your MongoDB account, or create a new one if you haven’t already, and
 
 After installing all the necessary dependencies, you can now proceed with launching the application using the command:
 
-```sh
+```
   cd backend
   npm run server
 ```
 Open a new terminal and run the frontend alongside the backend. I recommend starting with the backend to allow the database enough time to connect properly
-```sh
+```
   cd frontend
   npm run dev
 ```
@@ -81,6 +110,7 @@ Connect to [http://localhost:3000/](http://localhost:3000) to view the applicati
 - TypeScript
 - Nodemailer
 - dotenv, bcryptjs, express-async-handler, jsonwebtokeb, uuid, cookies-parser..
+
 
 ## Author and rights
 
