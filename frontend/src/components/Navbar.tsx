@@ -3,13 +3,13 @@
 import { RootState } from "@/redux/store";
 import Link from "next/link";
 import { useSelector } from "react-redux";
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 const Navbar = () => {
   const { userInfo } = useSelector((state: RootState) => state.auth);
   const [isMounted, setIsMounted] = useState(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setIsMounted(true);
   }, []);
 
