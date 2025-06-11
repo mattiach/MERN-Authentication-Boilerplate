@@ -65,7 +65,7 @@ const Page = () => {
                     <Input
                       id="confirmPassword"
                       name="confirmPassword"
-                      type="confirmPassword"
+                      type="password"
                       placeholder="••••••••••"
                       required
                       disabled={isLoading}

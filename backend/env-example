@@ -1,5 +1,5 @@
-PORT=
-JWT_SECRET_KEY=
+PORT=8000
+JWT_SECRET_KEY=''
 NODE_ENV=development
 
 # Website
