@@ -16,12 +16,12 @@
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.15.1",
-    "nodemailer": "^7.0.3",
+    "mongoose": "^8.17.1",
+    "nodemailer": "^7.0.5",
     "uuid": "^11.1.0"
   },
   "devDependencies": {
@@ -29,14 +29,14 @@
     "@types/cookie-parser": "^1.4.9",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
-    "@types/jsonwebtoken": "^9.0.9",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/mongodb": "^4.0.7",
-    "@types/node": "^24.0.0",
+    "@types/node": "^24.2.1",
     "@types/nodemailer": "^6.4.17",
     "@types/uuid": "^10.0.0",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
-    "tsx": "^4.20.1",
-    "typescript": "^5.8.3"
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
   }
 }
